@@ -4,12 +4,11 @@ using namespace std;
 int main()
 {
 	int a, b = 0;
-	float c, d = 0;
 
 	a = 3;
 	b = 5;
-	c = 3.05;
-	d = 2.78;
+	float c = 3.05f;
+	float d = 2.78f;
 
 	cout << a + b << endl;
 	cout << a - b << endl;
