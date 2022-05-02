@@ -8,13 +8,20 @@ int main()
 	cin >> Number;
 
 	char star = '*';
-	for (int j = 1; j <= Number; j++)
+	char blank = ' ';
+
+	for (int i = Number; i >= 1; --i)
 	{
-		for (int i = 0; i <= Number-j; i++)
+		for (int j = 1; j <= i-1; j++)
+		{
+			cout << blank;
+		}
+		for (int j = 1; j <= Number-i+1; j++)
 		{
 			cout << star;
 		}
 		cout << '\n';
 	}
+
 	return 0;
 }
