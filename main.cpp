@@ -3,23 +3,14 @@ using namespace std;
 
 int main()
 {
-	int EvenSum = 0;
-	int OddSum = 0;
+	int SumThree = 0;
 
-	for (int Index = 1; Index <= 100; Index++)
+	for (int Index = 3; Index <= 100; Index += 3)
 	{
-		if (Index % 2 == 0)
-		{
-			EvenSum += Index;
-		}
-		else
-		{
-			OddSum += Index;
-		}
+		SumThree += Index;
 	}
 	
-	cout << "짝수의 합: " << EvenSum << endl;
-	cout << "홀수의 합: " << OddSum << endl;
+	cout << "3의 배수의 합: " << SumThree << endl;
 
 	return 0;
 }
