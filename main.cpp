@@ -10,7 +10,7 @@ int main()
 		{
 			cout << star;
 		}
-		cout << endl;
+		cout << '\n';
 	}
 	return 0;
 }
