@@ -3,10 +3,8 @@ using namespace std;
 
 int main()
 {
-	int a, b = 0;
-
-	a = 3;
-	b = 5;
+	int a = 3;
+	int b = 5;
 	float c = 3.05f;
 	float d = 2.78f;
 
