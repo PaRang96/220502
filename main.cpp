@@ -10,7 +10,7 @@ int main()
 	char star = '*';
 	for (int j = 1; j <= Number; j++)
 	{
-		for (int i = 0; i < j; i++)
+		for (int i = 0; i <= Number-j; i++)
 		{
 			cout << star;
 		}
