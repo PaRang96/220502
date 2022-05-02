@@ -3,14 +3,21 @@ using namespace std;
 
 int main()
 {
-	int SumThree = 0;
+	int ComplexSum = 0;
 
-	for (int Index = 3; Index <= 100; Index += 3)
+	for (int i = 0; i <= 100; i++)
 	{
-		SumThree += Index;
+		if (i % 2 == 0)
+		{
+			ComplexSum -= i;
+		}
+		else
+		{
+			ComplexSum += i;
+		}
 	}
-	
-	cout << "3의 배수의 합: " << SumThree << endl;
+
+	cout << ComplexSum << endl;
 
 	return 0;
 }
