@@ -3,21 +3,11 @@ using namespace std;
 
 int main()
 {
-	int ComplexSum = 0;
+	char star = '*';
 
-	for (int i = 0; i <= 100; i++)
+	for (int i = 0; i < 5; i++)
 	{
-		if (i % 2 == 0)
-		{
-			ComplexSum -= i;
-		}
-		else
-		{
-			ComplexSum += i;
-		}
+		cout << star;
 	}
-
-	cout << ComplexSum << endl;
-
 	return 0;
 }
