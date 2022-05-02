@@ -19,8 +19,7 @@ int main()
 	cout << c - d << endl;
 	cout << c * d << endl;
 	cout << c / d << endl;
-	cout << c % d << endl;
-	//
+	//cout << c % d << endl;
 
 	return 0;
 }
